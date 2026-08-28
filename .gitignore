@@ -1,0 +1,15 @@
+# Python temporary files & cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Scraper raw caches (temporary files)
+raw_products_data.json
+*_temp*
+
+# OS system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

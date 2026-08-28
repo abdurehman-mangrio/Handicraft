@@ -1,0 +1,31 @@
+    <!-- Slide-in Cart Sidebar Drawer -->
+    <div id="cart-sidebar" class="cart-sidebar">
+        <div class="cart-header">
+            <h2>Your Shopping Cart</h2>
+            <button class="close-cart" aria-label="Close shopping cart" style="background: none; border: none; font-size: 1.5rem; cursor: pointer; color: inherit; padding: 0;"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        
+        <div class="cart-items" id="cart-items">
+            <!-- Items injected by JS -->
+        </div>
+        
+        <div class="cart-footer">
+            <div class="cart-summary-row">
+                <span>Subtotal:</span>
+                <span id="cart-total-price">Rs. 0</span>
+            </div>
+            <div class="cart-summary-row">
+                <span>Packaging & Handling:</span>
+                <span style="color:var(--whatsapp-green); font-weight:600;">FREE</span>
+            </div>
+            <div class="cart-total-row">
+                <span>Total Amount:</span>
+                <span id="cart-grand-total">Rs. 0</span>
+            </div>
+            <button id="checkout-btn" class="btn btn-primary whatsapp-btn" style="width: 100%; padding: 16px;">
+                <i class="fa-brands fa-whatsapp" style="font-size:1.2rem;"></i> Checkout via WhatsApp
+            </button>
+        </div>
+    </div>
+    
+    <div id="cart-overlay" class="cart-overlay"></div>

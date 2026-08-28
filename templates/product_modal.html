@@ -1,0 +1,41 @@
+    <!-- Product Detail & Add-to-Cart Modal -->
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <button class="close-modal" aria-label="Close product view" style="background: none; border: none; font-size: 2rem; cursor: pointer; color: inherit; position: absolute; top: 15px; right: 20px; line-height: 1; padding: 0;">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modal-img" src="" alt="Product Photo">
+                    <div class="modal-thumbnails" id="modal-thumbnails"></div>
+                </div>
+                <div class="modal-details">
+                    <span class="product-category" style="margin-bottom:6px;">Hala Authentic Craft</span>
+                    <h2 id="modal-title" style="font-size:1.75rem; margin-bottom:0.2rem;"></h2>
+                    <p id="modal-price" class="price"></p>
+                    <p id="modal-desc" class="desc"></p>
+                    
+                    <div id="modal-options">
+                        <div class="option-group" id="size-group">
+                            <label for="modal-size">Select Size / Dimension:</label>
+                            <select id="modal-size"></select>
+                        </div>
+                        <div class="option-group" id="color-group">
+                            <label for="modal-color">Select Color / Style:</label>
+                            <select id="modal-color"></select>
+                        </div>
+                        <div class="option-group">
+                            <label for="modal-qty">Quantity:</label>
+                            <input type="number" id="modal-qty" value="1" min="1" max="50">
+                        </div>
+                        <div class="option-group">
+                            <label for="modal-notes">Custom Instructions / Sizing Note:</label>
+                            <textarea id="modal-notes" rows="2" placeholder="e.g. Gift packing, color combination, etc."></textarea>
+                        </div>
+                    </div>
+                    
+                    <button id="modal-add-btn" class="btn btn-primary" style="margin-top: 1rem; width: 100%;">
+                        <i class="fa-solid fa-bag-shopping"></i> Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
