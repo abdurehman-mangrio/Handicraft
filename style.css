@@ -1562,13 +1562,8 @@ button, input, select, textarea {
         height: 38px !important;
     }
     
-    .logo-title {
-        font-size: 1.12rem;
-    }
-    
-    .logo-subtitle {
-        font-size: 0.62rem;
-        letter-spacing: 1px;
+    .logo-text {
+        display: none;
     }
     
     .cart-icon-btn {
