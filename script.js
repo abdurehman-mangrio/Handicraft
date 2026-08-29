@@ -373,6 +373,11 @@ if (checkoutBtn) {
             if (item.size) message += `• Size: ${item.size}\n`;
             if (item.color) message += `• Color: ${item.color}\n`;
             if (item.notes) message += `• Special Note: ${item.notes}\n`;
+            if (item.image) {
+                const baseOrigin = window.location.origin;
+                const imgPath = item.image.startsWith('/') ? item.image : `/${item.image}`;
+                message += `• Image Link: ${baseOrigin}${imgPath}\n`;
+            }
             message += `\n`;
             total += item.price * item.quantity;
         });
