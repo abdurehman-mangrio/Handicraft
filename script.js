@@ -2,8 +2,8 @@
 // ALI AKBAR HALA HANDICRAFT - CORE JAVASCRIPT
 // ==========================================================================
 
-const SHOP_PHONE = "923332583262"; // Shahzad Halai (Primary WhatsApp)
-const SECONDARY_PHONE = "923342863986"; // Shiraz Halai
+const SHOP_PHONE = "923325386563"; // Unified Shop WhatsApp
+const SECONDARY_PHONE = "923325386563";
 const CURRENCY = "Rs. ";
 
 // Global Products State (populated dynamically from products.json)
